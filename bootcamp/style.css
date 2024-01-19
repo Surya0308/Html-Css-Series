@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bootcamp-heading{
+    margin-left: 330px;
+    width: 50%;
+}
+.course{
+    background-color: #eeee00;
+    box-shadow: -5px 5px 0px 0px;
+    width: 40%;
+    margin-left: 330px !important;
+    cursor: pointer;
+}
+.bootcamp-certificate {
+    width: 40%;
+    margin-left: 330px !important; 
+}
+.bootcamp-services{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.course-content {
+    background: linear-gradient(to right, #c5c5c5, #8f94fb);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;    */
+}
+
+.js-definition, .loop-info, .js-dom-definition, .dom_example{
+    background: linear-gradient(to left, #dc6464, #cad967);
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+.course-content h1 {
+    animation: blink 1s infinite; /* Apply the 'blink' animation to the h1 element */
+}
+  
+.for-loop{
+    background: linear-gradient(to left, #68b891, #aff2f4);
+}
+
+.while-loop{
+    background: linear-gradient(to left, #6db7d2, #a37abe21);
+}
+
+.do-while-loop{
+    background: linear-gradient(to right, #60aede, #f99ff3);
+}
+
+.do-while-row{
+    background: linear-gradient(to right, #c5c5c5, #8f94fb);
+}
+  
