@@ -1,0 +1,488 @@
+*{
+ /*background-color: black; 
+   color: white;*/
+   font-family: 'Roboto', sans-serif;
+   margin:0;
+   box-sizing: border-box;
+   outline:none;
+   border:none;
+   text-decoration:none; 
+   text-transform: capitalize;
+   transition: .2s linear;
+   font-family: inherit;
+}
+
+.header{
+    background-color: black;
+    border-bottom:.1rem solid rgba(255,255,255,.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.header .navbar a{
+    color: white;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.header .icons div{
+    color:white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+header .icons {
+    margin-right: 5rem;
+}
+
+.fa-search:before{
+    content: "\f002";
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.fas {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.header .logo .cafena-logo {
+    margin-left: 6rem;
+    padding: 0.4rem;
+}
+
+.background_coffee_image{
+    background: url(https://naman547.github.io/coffee-website/images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* width:100vw; */
+    display: flex;
+}
+
+main#covered_main_coffee {
+    background-color: #000;
+    /* width: 100vw; */
+}
+
+.content{
+    position:relative;
+    top:150px;
+    left:90px;
+}
+
+.content h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 800;
+    width:600px
+   
+}
+
+.content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height:2rem;
+    padding: 1rem 0;
+    color: #eee;
+    width:600px;
+    /* margin-top:-45px; */
+}
+
+.btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    margin-left: 5px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #d3ad7f;
+    cursor: pointer;
+    text-decoration: none;  
+}
+
+section .heading {
+    text-align: center;
+    font-size:2.5rem;
+    padding: 0rem 0rem 2rem 0rem;
+    color: #fff;
+}
+
+section .heading span{
+    color:#d3ad7f
+}
+
+.about{
+    color:white;
+    /* background-color: black; */
+}
+
+.about .row{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    /* background-color: black; */
+    padding: 0px 20px 20px 20px
+}
+
+.about .row .image img {
+    width: 67%;
+    margin-left:20px
+
+}
+
+.about .content{
+    width:300px;
+    position: relative;
+    top:10px;
+    left:-180px; 
+}
+
+section .content h3{
+    font-size:1.3rem;
+}
+
+.box{
+    display: inline-block;
+    width:350px;
+    height: 350px;
+    border:.1rem solid rgba(255,255,255,.3);
+    margin:5px 5px;
+    padding:3rem;
+    text-align:center;
+    
+}
+
+.box:hover{
+    color:black;
+    background-color: white;
+}
+
+.menu{
+    color:white;
+    text-align: center;
+}
+
+.menu .type_of_menu{
+    padding:.2rem 5rem;
+} 
+
+.box h3{
+    line-height: 3rem;
+}
+
+.price{
+    line-height: 2rem;
+    font-size:1.5rem;
+} 
+
+.discount {
+    font-size: 1rem;
+    color: #c3c1c1;
+}
+
+/* our product css::begin */
+.products{
+    padding: 2rem 0rem 0rem 0rem;
+    color:white;
+    /* background-color: black; */
+}
+
+.box_products{
+    display:inline-block;
+    border: .1rem solid rgba(255,255,255,.3);
+    color:white;
+    width:350px;
+    height:450px;
+    margin:.3rem;
+    padding:1rem;
+}
+
+.box_products h3{
+    font-size:1.5rem;
+}
+
+.rating li{
+    list-style: none;
+    display:inline-block;
+}
+
+.our_products{
+    padding:1.5rem;
+    text-align: center;
+}
+
+.products .our_products .box_products .icons a{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid rgba(255,255,255,.3);
+    color: #fff;
+    margin: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+    
+}
+
+.fa-star:before {
+    content: "\f005";
+}
+
+.products .our_products .box_products .icons .rating i {
+    font-size: 1.7rem;
+    color: #d3ad7f;
+}
+
+.box_products .price{
+    font-size: 1.5rem;
+    
+}
+
+ul.coffee-rating {
+    font-size: 1.1rem;
+    margin-right: 1.7rem;
+    color: #d3ad7f;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+/* our product css::end */
+
+/* review css::begin*/
+
+.reviews{
+    padding: 2rem 0rem 0rem 0rem;
+}
+.consumer_reviews {
+    text-align: center;
+}
+
+.reviews_1, .reviews_2, .reviews_3 {
+    display: inline-block;
+    border: .1rem solid rgba(255, 255, 255, .3);
+    color: white;
+    width: 350px;
+    height: auto;
+    margin: .3rem;
+    padding: 1rem;
+}
+
+.consumer_reviews p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+    padding: 2rem 0;
+}
+
+.image_user_review {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.consumer_reviews h2 {
+    padding: 0.3rem 0rem;
+    font-size: 1.3rem;
+}
+.user_rating_reviews i{
+    color: #d3ad7f
+}
+/* review css::end*/
+
+/* contact us map css begin */
+section#contactUs {
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.map_form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.map_form { background-color: #13131a;}
+
+.map_form .map {
+    flex: .7;
+}
+
+.map_form form {
+    flex: .7;
+    text-align: center;
+}
+
+h3.get_in_touch {
+    color: #fff;
+    font-size: 2rem;
+    padding: 3rem 0rem 1rem 0rem;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+    background: #010103;
+    border: 1px solid #565656;
+    padding: 0.7rem;    
+}
+
+.inputBox i {
+    color: #fff;
+}
+
+input.name, input.email, input.phone {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    color: #fff;
+}
+
+input.submit_btn {
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    background: #d3ad7f;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+input.submit_btn:hover{
+    transform: scaleX(1.2);
+}
+
+/* our blog css::begin */
+
+section#our_blogs {
+    padding: 2rem 0rem;
+}
+
+.blogs {
+    text-align: center;
+}
+
+.blog_1, .blog_2, .blog_3 {
+    display: inline-block;
+    border: .1rem solid rgba(255, 255, 255, .3);
+    color: #fff;
+    width: 350px;
+    height: auto;
+    margin: .3rem;
+}
+.background_image_1, .background_image_2, .background_image_3 {
+    width: 100%; 
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background_image_1:hover, .background_image_2:hover, .background_image_3:hover {
+    transform: scale(1.02);
+}
+
+.background_image_1 {
+    background-image: url('https://naman547.github.io/coffee-website/images/blog-1.jpeg');
+}
+.background_image_2 {
+    background-image: url('https://naman547.github.io/coffee-website/images/blog-2.jpeg');
+}
+
+.background_image_3 {
+    background-image: url('https://naman547.github.io/coffee-website/images/blog-3.jpeg');
+}
+
+.blog_description{
+    padding: 1rem;
+}
+
+.blog_coffee_name {
+    font-size: 1.6rem;
+}
+
+.blog_coffee_date {
+    font-size: 1.3rem;
+    padding: 0.5rem 0rem;
+    color: #d3ad7f;
+}
+
+.blog_paragraph {
+    line-height: 1.7rem;
+}
+
+/* footer css :: start */
+
+.footer{
+    width: 100vw;
+    background-color: #13131a;
+    padding: 3rem 0rem;
+}
+
+.social_icons {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.footer_individual_icon{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 1rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+.footer_individual_icon:hover {
+    background-color: #d3ad7f;
+}
+
+.footer_page_menu{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_individual_menu {
+    color: #fff;
+    border: 1px solid #5f5f5f;
+    padding: 0.7rem 2rem;
+    margin-left: .5rem;
+    margin-top: 0.8rem;
+    font-weight: 600;
+}
+
+.footer_individual_menu:hover {
+    background-color: #d3ad7f;
+}
+
+
+
